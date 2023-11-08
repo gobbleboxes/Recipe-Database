@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16.0px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18.0px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14.0px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14.0px;
+            }
+            .metadata {
+                font-size: 14.0px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14.0px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                
+                float: left;
+                margin-right: 14px;
+                
+                
+            }
+            .photo {
+                max-width: 140.0px;
+                max-height: 140.0px;
+                width: auto;
+                height: auto;
+            }
+            
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                
+                page-break-after: always;
+                
+                
+            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        
+        <div class="photobox">
+            
+            <a href="https://mealprepmanual.com/wp-content/uploads/2019/11/Supreme-Pizza-Bites-WP-225x300.jpg">
+                <img src="Images/D8D3B63B-74BF-4478-835F-FFFF91198E7B/47875BC4-3DFC-43E3-ACA4-CB8C1DEB6F09.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+            
+            
+        </div>
+        
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Supreme Pizza Bites</h1>
+        
+        <!-- Info -->
+        
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+        
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            
+            <b>Prep Time: </b><span itemprop="prepTime">25 minutes</span>
+            
+            <b>Cook Time: </b><span itemprop="cookTime">9 minutes</span>
+            
+            <b>Servings: </b><span itemprop="recipeYield">Servings: bites calories: 37</span>
+            
+
+            <!-- Source -->
+            
+        </p>
+        
+        
+        
+        <div class="clear"></div>
+        
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>¾</strong> cup (90 g) oat flour</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> tbsp (45 g) liquid egg whites</p><p class="line" itemprop="recipeIngredient"><strong>¾</strong> cup (165 g) plain non fat Greek yogurt</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tsp (4 g) baking powder</p><p class="line" itemprop="recipeIngredient"><strong>½</strong> tsp (2 g) onion powder</p><p class="line" itemprop="recipeIngredient"><strong>½</strong> tsp (2 g) garlic powder</p><p class="line" itemprop="recipeIngredient"><strong>⅓</strong> tsp (1 g) salt</p><p class="line" itemprop="recipeIngredient"><strong>½</strong> cup (100 g) marinara sauce</p><p class="line" itemprop="recipeIngredient"><strong>5 ½</strong> tbsp (40 g) shredded mozzarella cheese</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> oz (57 g) turkey sausage Jimmy Dean sells a bag of frozen precooked sausage, I use it for ease.</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> slices (8 g) pepperoni</p><p class="line" itemprop="recipeIngredient"><strong>¼</strong> cup (38 g) onion diced</p><p class="line" itemprop="recipeIngredient"><strong>¼</strong> cup (38 g) pepper diced</p>
+            </div>
+        </div>
+        
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+        
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+    
+
+    <!-- Directions -->
+    
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line"><strong>FOR THE CRUST:</strong></p><p class="line">Preheat your oven to 425°F.</p><p class="line">In a large bowl, mix the oat flour, egg whites, Greek yogurt, baking powder, salt, onion powder, and garlic powder until combined.</p><p class="line">Spray a mini muffin tin with oil. Put a spoonful of dough into 24 wells. Do your best to get the wells filled evenly. I find that a small cookie scoop is easiest but a spoon works as well. With some practice you&apos;ll get better at eyeballing the size.</p><p class="line">Form the dough into the shape of the well. I find this step easiest if you use a pointy spoon, put the spoon in the center of the dough, and drag the back of the spoon up the sides while applying a little pressure on the well of the muffin tin on all sides. I like to fill all of the wells first, then go through and form the wells, then redistribute any dough as needed to make them more even.</p><p class="line">Parbake the dough for 3 minutes.</p><p class="line"><strong>FOR THE TOPPING:</strong></p><p class="line">Weigh out the sauce, cheese, onion, peppers, sausage, and pepperoni. Cut the pepperoni into small pieces to fit on top. (If you&apos;re not worried about exact calories, just eyeball it. Your life will be easier.)</p><p class="line">Top each pizza bite with sauce, then the toppings and cheese over the top. Bake for an additional 6-7 minutes.</p><p class="line">Remove from oven and allow to cool.</p><p class="line">STORAGE</p><p class="line">Once the bites are at room temperature, add them to a gallon ziplock bag. Label the bag with the name and date and freeze.</p><p class="line">To the reheat the pizza bites, microwave them for 1-2 minutes or until thawed based on the power of your microwave.</p>
+        </div>
+    </div>
+    
+
+    <!-- Notes -->
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+    
+        <!-- Used in two different places depending on the recipe layout -->
+
+
+<div class="nutritionbox textbox">
+    <h3 class="subhead">Nutrition</h3>
+    <div itemprop="nutrition" class="nutrition text">
+        <p>CARBS PROTEIN FAT<br/>Calories: 37kcal | Carbohydrates: 4g | Protein: 2.4g | Fat: 1.3g</p>
+    </div>
+</div>
+
+
+
+    
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+
+
+    </body>
+</html>
